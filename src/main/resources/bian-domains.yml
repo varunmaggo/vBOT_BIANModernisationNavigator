@@ -1,0 +1,56 @@
+domains:
+  - code: CRM
+    name: Customer Relationship Management
+    keywords:
+      - customer
+      - client
+      - party
+      - profile
+      - relationship
+    capabilities:
+      - Capture and maintain customer profiles and preferences
+      - Manage relationship channels and authorisations
+  - code: ACCT
+    name: Account Management
+    keywords:
+      - account
+      - balance
+      - ledger
+      - statement
+      - transaction
+    capabilities:
+      - Maintain account lifecycle and balances
+      - Produce statements and handle inquiries
+  - code: PAY
+    name: Payments
+    keywords:
+      - payment
+      - transfer
+      - remittance
+      - settlement
+      - payout
+    capabilities:
+      - Initiate, validate, and settle payments
+      - Manage payment instructions and statuses
+  - code: LOAN
+    name: Lending
+    keywords:
+      - loan
+      - lending
+      - credit
+      - mortgage
+      - installment
+    capabilities:
+      - Originate and service loans
+      - Manage payment schedules and collateral
+  - code: CARD
+    name: Card Services
+    keywords:
+      - card
+      - plastic
+      - issuer
+      - authorization
+      - dispute
+    capabilities:
+      - Issue and manage cards
+      - Handle authorizations, disputes, and chargebacks
