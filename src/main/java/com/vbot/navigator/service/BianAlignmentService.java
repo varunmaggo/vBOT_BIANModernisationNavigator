@@ -62,7 +62,7 @@ public class BianAlignmentService {
                 matched.add(keyword);
                 score += 1.2;
             } else {
-                double jw = distance.apply(searchableText, normalized);
+                Double jw = distance.apply(searchableText, normalized);
                 if (jw != null && jw > 0.9) {
                     matched.add(keyword);
                     score += 0.8;
